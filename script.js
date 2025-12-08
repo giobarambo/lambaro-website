@@ -1,6 +1,8 @@
 //------------- burger button
 function toggleMenu(){
-    document.querySelector('nav').classList.toggle('openedMenu')
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('openedMenu');
+    document.body.classList.toggle('no-scroll');
 }
 
 
